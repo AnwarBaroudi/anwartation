@@ -111,7 +111,7 @@ class AnDoc:
 		self.num_annotated = len([x for x in self.annotations if x != ''])
 
 	def print_curr_annotation(self):
-		sys.stdout.write(up(len(self.relevant_cols) + 23))
+		sys.stdout.write(up(len(self.relevant_cols) + 25))
 		sys.stdout.write(del_all(0))
 		sys.stdout.write(down(1))
 		#write instructions
