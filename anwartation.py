@@ -111,7 +111,7 @@ class AnDoc:
 		self.num_annotated = len([x for x in self.annotations if x != ''])
 
 	def print_curr_annotation(self):
-		sys.stdout.write(up(len(self.relevant_cols) + 21))
+		sys.stdout.write(up(len(self.relevant_cols) + 23))
 		sys.stdout.write(del_all(0))
 		sys.stdout.write(down(1))
 		#write instructions
@@ -276,7 +276,8 @@ class AnDoc:
 
 def collect_key_info():
 	sys.stdout.write(del_all(2))
-	print('hello!')
+	print('hello! Welcome to Anwartation v1.0.0! Be sure to check github for updates!')
+	print('https://github.com/AnwarBaroudi/anwartation.git')
 	print()
 	print('please enter the filename which you would like to annotate, followed by the enter key')
 	print()
